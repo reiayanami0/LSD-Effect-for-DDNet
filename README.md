@@ -2,6 +2,8 @@
  # 🍃 DDNet / Teeworlds LSD Effect
 
  **A simple LSD screen effect component with hue-cycling and screen wobble for DDNet clients.**
+ <img src="https://media.tenor.com/Ylqui-QhuO0AAAAC/pikachu-drool.gif" width="1000">
+
 <div align="center">
   <a href="https://github.com/reiayanami0/LSD-Effect-for-DDNet">
     <img src="https://img.shields.io/badge/For-Teeworlds-98d243?style=for-the-badge" alt="For Teeworlds">
