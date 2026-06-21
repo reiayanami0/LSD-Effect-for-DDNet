@@ -9,12 +9,14 @@ class CLsdEffect : public CComponent
 	bool m_Enabled = false;
 	float m_Time = 0.0f;
 
-	float m_Speed = 1.0f; // hue cycle speed multiplier
-	float m_Intensity = 0.15f; // tint overlay 
-	float m_WobbleAmount = 0.08f; // max extra zoom 
-	float m_WobbleSpeed = 0.6f; // wobble cycles per second-ish
+	float m_Speed = 1.0f;
+	float m_Intensity = 0.15f;
+	float m_WobbleAmount = 0.08f;
+	float m_WobbleSpeed = 0.6f;
 
 	void RenderTintOverlay();
+
+	void HSVtoRGB(float h, float s, float v, float &r, float &g, float &b);
 
 	static void ConToggle(IConsole::IResult *pResult, void *pUserData);
 	static void ConSpeed(IConsole::IResult *pResult, void *pUserData);
